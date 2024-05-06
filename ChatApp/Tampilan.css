@@ -1,0 +1,252 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+boddy {
+    margin: 0px;
+    padding: 0px;
+    font-family:" Open Sans", sans-serif; 
+}
+
+.wrapper {
+    width: 1500px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #222831;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #222831;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "comic sans ms";
+    color: #222831;
+    text-align: left;
+}
+
+h2 {
+    font-family: "comic sans ms";
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #0c0c0c;
+    width: 100%; 
+    text-align: left;
+}
+
+a.tbl-biru {
+    background: #3F72AF;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #FF2E63;
+    text-decoration: none;
+}
+
+a.tbl-black {
+    background: #FF2E63;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-black:hover {
+    background: #3F72AF;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+#contact {
+    background: #dedede;
+    padding: 5px 5px 5px 5px;
+}
+
+.footer {
+    width: 20%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+
+h3 {
+    font-family: "comic sans";
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 65px;
+    color: #000000;
+    text-align: justify;
+}
+
+
+.social-icon {
+    font-size: 80px;
+    color: #0000FF;
+    transition: color 0.2s;
+    place-items: center;
+    align-items: center;
+}
+
+.social-icon:hover {
+    color: #333333;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.deskripsi{
+    font-weight: 800;
+}
+
+.judul{
+    overflow-y: hidden;
+    text-align: left;
+}
+
+.deskripsi p {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto ;
+    }
+    *{
+        overflow-x: hidden;
+    }
+    
+    h3 {
+        font-family: "comic sans";
+        font-weight: 800;
+        font-size: 25px;
+        margin-bottom: 65px;
+        color: #000000;
+        text-align: center;
+    }
+    .judul{
+        overflow-y: hidden;
+        text-align: center;
+    }
+}
